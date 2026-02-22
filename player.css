@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#jogo {
+    width: 80%;
+    height: 80vh;
+    margin: 10vh auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+#player {
+    width: 130px;
+    position: absolute;
+    z-index: 2;
+}
+
+.viraE {
+    transform: scaleX(-1);
+}
+
+.viraD {
+    transform: scaleX(1);
+}
+
